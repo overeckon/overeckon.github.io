@@ -1,0 +1,275 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+header {
+  padding-top: 20px;
+  position: relative;
+  background: transparent linear-gradient(180deg, #D5E6FF 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+  height: 100vh;
+}
+.top-image {
+  position: absolute;
+  top: 0;
+  left: 15%;
+  width: 40%;
+  height: 40%px;
+}
+
+
+
+/* NAVBAR */
+.nav-logo {
+  position: relative;
+  top: 20px;
+  left: 120px;
+  width: 301px;
+  height: 44px;
+}
+
+
+  
+
+.nav-link {
+  font-weight: 600;
+  color: black;
+}
+
+.nav-button {
+  background: transparent linear-gradient(79deg, #1A75FC 0%, #0D3B7E 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 33px !important;
+  opacity: 1;
+  color: white !important;
+  padding: 10px 25px !important;
+  font-size: 14px !important;
+  text-align: center !important;
+}
+.item{
+  color: #000000;
+text-align: right;
+font-family: 'DM Sans', sans-serif;
+font-size: small;
+letter-spacing: 0px;
+opacity: 1;
+
+}
+
+.item1{
+  position: absolute;
+  top: 25px;;
+height: 18px;
+  left: 800px;
+
+}
+.item2{
+  position: absolute;
+  top: 25px;
+left: 910px;
+width: 40px;
+height: 18px;
+
+}
+.item3{
+  position: absolute;
+  top: 25px;
+left: 980px;
+width: 44px;
+height: 18px;
+
+}
+.item4{
+  position: absolute;
+  top: 10px;
+  left:1030px;
+  font-size: xx-large;
+  font-family: 'DM Sans', sans-serif;
+opacity: 0.6;
+
+}
+.item5{
+  position: absolute;
+  top:21px;
+  left:1100px;
+}
+    
+  
+    
+
+/* End of NAVBAR */
+.container1{
+  position: relative;
+  display:flex;
+  width:100%;
+  height:86vh;
+  justify-content: space-between;
+}
+.container2{
+  height:100%;
+  width:55%;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+.heading{
+  color: #2078FC;
+}
+.image{
+  height:90%;
+  width:70%;
+  margin-left: 25%;
+}
+.para{
+  width: 423px;
+height: 26px;
+  text-align: left;
+font-family: 'DM sans',sans-serif;
+letter-spacing: 0px;
+color: #67707E;
+opacity: 1;
+}
+
+/*container2*/
+
+.section1{
+  background: transparent;
+    padding-top: 120px;
+  background: transparent url('doctor2.png') 10% 100% no-repeat padding-box;
+}
+.section-one-button {
+  background: #FFFFFF 0% 0% no-repeat padding-box !important;
+  border: 2px solid #1A75FC !important;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 34px !important;
+  opacity: 1;
+  color: #1A75FC !important;
+  padding: 15px 35px !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+}
+.h-inherit {
+  height: inherit;
+}
+
+.color2 {
+  color: #2078FC;
+}
+
+.color1 {
+  color: #67707E;
+  padding-right: 20%;
+} 
+
+
+
+.section2 {
+  position: relative;
+  background: transparent;
+  padding-top: 180px;
+  padding-bottom: 180px;
+  
+}
+
+.section2 .left-image {
+  position: absolute;
+  left: -2.5%;
+  bottom: 15%;
+}
+
+.section2 .right-image {
+  position: absolute;
+  top: 15%;
+  right: -2.5%;
+}
+.icons{
+  color: white;
+  font-size: 24px;
+  padding: 0px 12px;
+}
+
+
+footer {
+  background: #0C1726 0% 0% no-repeat padding-box;
+  padding-top: 40px;
+  padding-bottom: 14px;
+}
+.logo2{
+max-height: 40px;
+}
+.horizontal-line{
+  background-color: #67707E;
+}
+/*media Queries */
+
+@media(max-width: 700px) {
+
+
+  .nav-logo{
+    position: relative;
+    top:8px;
+    left:5%;
+    max-height: 30px;
+    width:100%;
+  }
+  .image{
+    width:100%;
+  }
+  .container1{
+    display: grid;
+    width:100%;
+    height:100%;
+
+  }
+  
+  .container2{
+    height:100%;
+    width:90%;
+    position: relative;
+  }
+  .display-3{
+    position: relative;
+    bottom:7%;
+  }
+  .para{
+    position: relative;
+    bottom: 15%;
+  }
+  .btn{
+    position: relative;
+    bottom:20%;
+  }
+  .section1{
+    background: transparent;
+    padding-top: 70%;
+    background: transparent url('doctor2.png') 50% 90% no-repeat padding-box;
+    background-size: 85% 50%;
+  }
+  
+  .float-box-footer{
+    width:100%;
+    position: relative;
+    left:3%;
+    padding-top:20%;
+  }
+  .floatbox{
+    padding-left:2%;
+  }
+  .section2{
+   padding-top:170%; ;
+
+  }
+  .container3{
+    position: relative;
+    width:100%;
+    height:100%;
+  }
+  .container5{
+    padding-top:120%;
+  }
+  }
+  
