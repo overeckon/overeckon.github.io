@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -218,6 +219,9 @@ max-height: 40px;
   }
   .image{
     width:100%;
+    position: relative;
+    right:30%;
+
   }
   .container1{
     display: grid;
@@ -228,8 +232,9 @@ max-height: 40px;
   
   .container2{
     height:100%;
-    width:90%;
+    width:80%;
     position: relative;
+    right:5%;
   }
   .display-3{
     position: relative;
@@ -260,7 +265,7 @@ max-height: 40px;
     padding-left:2%;
   }
   .section2{
-   padding-top:170%; ;
+   padding-top:200%; ;
 
   }
   .container3{
@@ -269,7 +274,7 @@ max-height: 40px;
     height:100%;
   }
   .container5{
-    padding-top:120%;
+    padding-top:140%;
   }
   }
   
